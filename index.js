@@ -6,6 +6,7 @@ const port = 3000;
 
 app.get('/video', (req, res) => {
     
+    // Video by 宇航 钱 from Pexels
     const path = "../simpleStreamingApp_Microservice/videos/pexel_bluberries.mp4";
     fs.stat(path, (err, stats) => {
         if (err) {
